@@ -21,7 +21,6 @@ func main() {
 
 	for {
 		if len(os.Args) != 2 {
-			fmt.Println(len(os.Args))
 			printError(errInvalidArguments)
 		}
 		originUnit = strings.ToUpper(os.Args[1])
