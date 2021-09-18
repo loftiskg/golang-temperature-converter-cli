@@ -25,6 +25,7 @@ func main() {
 		}
 
 		originUnit = strings.ToUpper(os.Args[1])
+
 		fmt.Print("What is the current temperature in " + originUnit + " ? ")
 
 		fmt.Print("Would you like to convert another temperature ? (y/n) ")
